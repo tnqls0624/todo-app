@@ -1,0 +1,22 @@
+.TodoTemplate {
+  width: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.app-title {
+  background: #22b8cf;
+  color: white;
+  height: 2rem;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  background: white;
+}
