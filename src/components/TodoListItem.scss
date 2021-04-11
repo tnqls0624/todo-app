@@ -1,5 +1,5 @@
 .TodoListItem {
-  padding: 0.5rem;
+  padding: 0.25rem;
   display: flex;
   align-items: center;
   &:nth-child(even) {
@@ -12,10 +12,10 @@
     display: flex;
     align-items: center;
     svg {
-      font-size: 0.75rem;
+      font-size: 1.5rem;
     }
     .text {
-      margin-left: 0.25rem;
+      margin-left: 0.5rem;
       flex: 1;
     }
     &.checked {
@@ -29,9 +29,10 @@
     }
   }
   .remove {
+    overflow: hidden;
     display: flex;
     align-items: center;
-    font-size: 00.75rem;
+    font-size: 1rem;
     color: #ff6b6b;
     cursor: pointer;
     &:hover {
